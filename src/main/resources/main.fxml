@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.sycodes.controller.MainController"
+            prefHeight="700.0" prefWidth="1500.0"
+            fx:id="mainPane">
+
+    <center>
+        <VBox alignment="CENTER" spacing="10.0">
+            <ImageView
+                    fx:id="cameraView"
+                    fitHeight="700"
+                    fitWidth="1300"
+                    preserveRatio="true"
+                    style="-fx-background-color: gray"/>
+
+            <Label fx:id="detectedSignLabel"
+                   text="Detected Sign : "
+                   style="-fx-font-size : 18px;"/>
+
+            <Button text="speak"/>
+        </VBox>
+    </center>
+</BorderPane>

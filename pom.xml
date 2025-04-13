@@ -19,13 +19,13 @@
     <dependency>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-controls</artifactId>
-        <version>20</version>
+        <version>21</version>
     </dependency>
 
     <dependency>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-fxml</artifactId>
-        <version>20</version>
+        <version>21</version>
     </dependency>
 
     <dependency>
@@ -37,8 +37,9 @@
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>opencv-platform</artifactId>
-        <version>4.5.5-1.5.7</version>
+        <version>4.9.0-1.5.10</version>
     </dependency>
+
 </dependencies>
 
 </project>
